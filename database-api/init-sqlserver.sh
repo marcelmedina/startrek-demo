@@ -1,0 +1,1 @@
+/opt/mssql-tools/bin/sqlcmd -S sqltrek -U sa -P $1 -d master -i /tmp/startrek.sql
